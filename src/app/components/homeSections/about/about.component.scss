@@ -1,0 +1,22 @@
+#about{
+    z-index:18;
+    .dark_lines{
+        top: 65%;
+        z-index: 10;
+    }
+
+    .about_wrapper{
+        z-index: 1000;
+        .about_img{
+            z-index: 100;
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    #about{
+        .row{
+            flex-direction: column-reverse;
+        }
+    }
+}
